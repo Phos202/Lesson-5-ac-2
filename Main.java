@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
-    import java.util.Scanner;
+   
 
-      Scanner scan = new Scanner(System.in);
+          Scanner scan = new Scanner(System.in);
        /* Write your code here */
       System.out.println("Please enter a three digit number:");
       
@@ -22,11 +22,12 @@ class Main {
       
       System.out.println("Here are the digits");
       
-      System.out.println(ac % 670);
+      System.out.println(ac / 80);
      
-      System.out.println(ab);
+      System.out.println(ab  % 160);
      
-      System.out.println(a / 100);
+      System.out.println(a / 100 );
+      
 
 
 
