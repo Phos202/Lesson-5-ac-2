@@ -11,22 +11,24 @@ class Main {
       
       int a = scan.nextInt();
       
-      int ab = a;
-      
-      int ac = a;
-      
-      
-      
-      
-      
-      
-      System.out.println("Here are the digits");
-      
-      System.out.println(ac / 80);
+
      
-      System.out.println(ab  % 160);
+      
+      
+      
+      
+      
+      System.out.println("Here are the digits:");
+        
+      int h = a % 10;
+      int b = a / 10 % 10;
+     int c = a / 100;
      
-      System.out.println(a / 100 );
+      System.out.println(h);
+     
+      System.out.println(b);
+     
+      System.out.println(c);
       
 
 
